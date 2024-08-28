@@ -1,5 +1,5 @@
 Repositorio de prueba para implemenry LLM y una aplicacion web 
-# 1. instalacion de ollama 
+# 1. Instalacion de ollama 
 
 Para instalar ollama accedemos a la pagina de https://ollama.com/download/linux
 
