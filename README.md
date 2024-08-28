@@ -11,8 +11,8 @@ $ ollama serve
 ````
 # 3 Descargar algun modelo 
 
-En la pagina de modelos de ollama se busca el modelo dseado y se decarga con el siguiente comando 
+En la pagina de modelos de ollama se busca el modelo deseado y se decarga con el siguiente comando 
 ````
-$ Ollama pull tinyllama
+$ ollama pull tinyllama
 ````
 
