@@ -13,6 +13,18 @@ $ ollama serve
 
 En la pagina de modelos de ollama se busca el modelo deseado y se decarga con el siguiente comando 
 ````
-$ ollama pull tinyllama 
+$ ollama pull tinyllama
 ````
+# 3. Descargar algun modelo  
+Para realizar una petición basica a la API de ollama se sigue la siguiente estructura 
+
+``````
+curl http://localhost:11434/api/generate -d '{
+  "model": "llama3",
+  "prompt": "Why is the sky blue?"
+}'
+
+``````
+
+
 
