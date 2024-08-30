@@ -3,8 +3,10 @@ Repositorio de prueba para implemenry LLM y una aplicacion web
 
 Para instalar ollama accedemos a la pagina de https://ollama.com/download/linux
 Ejecutamos el siguiente codigo para instalar
+
 ``````
 curl -fsSL https://ollama.com/install.sh | sh
+
 ´´´´´´
 
 # 2. Ejecutar el servidor 
