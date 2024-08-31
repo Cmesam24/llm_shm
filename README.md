@@ -34,6 +34,7 @@ curl http://localhost:11434/api/generate -d '{
 
 # 4. Realizar  consultas a groq
 ```````break
+
 curl
 CopyCopy code
 curl "https://api.groq.com/openai/v1/chat/completions" \
@@ -51,7 +52,7 @@ curl "https://api.groq.com/openai/v1/chat/completions" \
          "temperature": 1,
          "max_tokens": 1024,
          "top_p": 1,
-         "stream": true,
+         "stream": false,
          "stop": null
        }'
 ``````````
